@@ -44,15 +44,11 @@ Salin dan jalankan perintah berikut satu per satu di Termux:
    ```bash
    git clone https://github.com/codepall/termux-pc-level-1
    ```
-6. Pindah ke direktori repositori:
-   ```bash
-   cd termux-pc-level-1
-   ```
-7. Salin file instalasi ke direktori utama:
+6. Salin file instalasi ke direktori utama:
    ```bash
    cp termux-pc-level-1/install.sh .
    ```
-8. Jalankan skrip instalasi:
+7. Jalankan skrip instalasi:
    ```bash
    bash install.sh
    ```

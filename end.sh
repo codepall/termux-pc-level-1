@@ -1,0 +1,3 @@
+pkill -f com.termux.x11
+exit
+exit

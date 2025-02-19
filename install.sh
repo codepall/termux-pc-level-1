@@ -2,6 +2,7 @@ apt update
 apt upgrade -y
 apt install x11-repo -y
 apt install termux-x11-nightly -y
+apt install pulseaudio -y
 apt install dbus -y
 mkdir .shortcuts
 cp termux-pc-level-1/start.sh .shortcuts

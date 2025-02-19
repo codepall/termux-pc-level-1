@@ -1,6 +1,6 @@
 # Termux PC Level 1
 
-Skrip ini dirancang untuk mengubah Termux menjadi lingkungan desktop yang lengkap dengan berbagai aplikasi yang berguna.
+Skrip ini dirancang untuk mengubah Termux menjadi lingkungan desktop linux yang lengkap dengan berbagai aplikasi yang berguna.
 
 ## Paket yang Disertakan
 
@@ -11,6 +11,14 @@ Skrip ini akan menginstal paket berikut:
 - **GIMP** - Editor gambar mirip Photoshop.
 - **LibreOffice** - Paket perkantoran lengkap.
 - **VLC Media Player** - Pemutar media serbaguna.
+
+## Aplikasi yang Diperlukan
+
+Sebelum memulai, pastikan Anda telah menginstal aplikasi berikut:
+
+- **Termux**: [Unduh di sini](https://f-droid.org/repo/com.termux_1000.apk)
+- **Termux X11**: [Unduh di sini](https://github.com/termux/termux-x11/releases/download/nightly/app-arm64-v8a-debug.apk)
+- **Termux Widget**: [Unduh di sini](https://github.com/termux/termux-widget/releases/download/v0.14.0/termux-widget-app_v0.14.0+github.debug.apk)
 
 ## Persyaratan
 
@@ -57,18 +65,18 @@ Ikuti langkah-langkah yang muncul sampai instalasi selesai.
 
 ## Cara Menggunakan
 
-Setelah instalasi selesai, gunakan perintah berikut untuk menjalankan lingkungan desktop:
+Anda dapat menjalankan skrip ini melalui Termux atau menggunakan Termux Widget untuk mempermudah akses.
 
 1. Jalankan sesi desktop:
 
    ```bash
-   ./start.sh
+   bash start.sh
    ```
 
 2. Untuk menghentikan lingkungan desktop:
 
    ```bash
-   ./end.sh
+   bash end.sh
    ```
 
 ## Catatan

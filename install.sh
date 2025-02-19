@@ -4,10 +4,10 @@ apt install x11-repo -y
 apt install termux-x11-nightly -y
 apt install dbus -y
 mkdir .shortcuts
-cp storage/downloads/dexmode/start.sh .shortcuts
-cp storage/downloads/dexmode/start.sh .
-cp storage/downloads/dexmode/end.sh .shortcuts
-cp storage/downloads/dexmode/end.sh .
+cp termux-pc-level-1/start.sh .shortcuts
+cp termux-pc-level-1/start.sh .
+cp termux-pc-level-1/end.sh .shortcuts
+cp termux-pc-level-1/end.sh .
 apt install proot-distro -y
 proot-distro install debian
 proot-distro login debian -- apt update

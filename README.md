@@ -9,7 +9,6 @@ Skrip ini akan menginstal paket berikut:
 - **Firefox Browser** - Peramban web open-source.
 - **Inkscape** - Editor grafis vektor.
 - **GIMP** - Editor gambar mirip Photoshop.
-- **LibreOffice** - Paket perkantoran lengkap.
 - **VLC Media Player** - Pemutar media serbaguna.
 
 ## Aplikasi yang Diperlukan
@@ -25,6 +24,8 @@ Sebelum memulai, pastikan Anda telah menginstal aplikasi berikut:
 - Perangkat Android dengan aplikasi Termux terinstal.
 - Koneksi internet yang stabil.
 - Izin penyimpanan untuk Termux.
+- Ram minimal 4GB
+- Penyimpanan minimal tersedia 5GB
 
 ## Cara Penginstalan
 

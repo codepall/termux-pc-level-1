@@ -17,7 +17,6 @@ proot-distro login debian -- apt install xfce4 -y
 proot-distro login debian -- apt install xfce4-terminal -y
 proot-distro login debian -- apt install xfce4-taskmanager -y
 proot-distro login debian -- apt install firefox-esr -y
-proot-distro login debian -- apt install libreoffice -y
 proot-distro login debian -- apt install inkscape -y
 proot-distro login debian -- apt install cron -y
 proot-distro login debian -- apt install gimp -y

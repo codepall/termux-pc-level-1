@@ -1,6 +1,6 @@
 # Termux PC Level 1
 
-Skrip ini dirancang untuk mengubah Termux menjadi lingkungan desktop linux yang lengkap dengan berbagai aplikasi yang berguna.
+Skrip ini dirancang untuk mengubah Termux menjadi lingkungan desktop xfce4 linux debian yang lengkap dengan berbagai aplikasi yang berguna.
 
 ## Paket yang Disertakan
 
@@ -25,7 +25,7 @@ Sebelum memulai, pastikan Anda telah menginstal aplikasi berikut:
 - Koneksi internet yang stabil.
 - Izin penyimpanan untuk Termux.
 - Ram minimal 4GB
-- Penyimpanan minimal tersedia 5GB
+- Penyimpanan minimal tersedia 3GB
 
 ## Cara Penginstalan
 

@@ -24,7 +24,7 @@ proot-distro login debian -- apt install sudo -y
 proot-distro login debian -- apt install vlc -y
 proot-distro login debian -- dpkg-reconfigure tzdata
 proot-distro login debian -- adduser admin
-proot-distro login debian -- cp termux-pc-level-1/sudoers /etc
+proot-distro login debian --termux-home --shared-tmp -- cp termux-pc-level-1/sudoers /etc
 pulseaudio --start --exit-idle-time=-1 --log-target=syslog --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1"
 proot-distro login debian -- export PULSE_SERVER=tcp:127.0.0.1
 bash start.sh

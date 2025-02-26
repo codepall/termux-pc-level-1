@@ -20,9 +20,13 @@ proot-distro login debian -- apt install firefox-esr -y
 proot-distro login debian -- apt install inkscape -y
 proot-distro login debian -- apt install cron -y
 proot-distro login debian -- apt install gimp -y
+proot-distro login debian -- apt install sudo -y
 proot-distro login debian -- apt install vlc -y
+proot-distro login debian -- dpkg-reconfigure tzdata
 proot-distro login debian -- adduser admin
-pulseaudio --kill
+proot-distro login debian -- echo "root ALL=(ALL:ALL) ALL
+%sudo ALL=(ALL:ALL) ALL
+admin ALL=(ALL:ALL) NOPASSWD: ALL" > /etc/sudoers
 pulseaudio --start --exit-idle-time=-1 --log-target=syslog --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1"
 proot-distro login debian -- export PULSE_SERVER=tcp:127.0.0.1
 bash start.sh
